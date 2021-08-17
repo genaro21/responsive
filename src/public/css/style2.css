@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+.izq {
+  background-color: red;
+  border-right: white solid 10px;
+}
+
+.header {
+  background-color: greenyellow;
+  height: 50px;
+  border-bottom: white solid 10px;
+}
+.footer {
+  background-color: greenyellow;
+  height: 30px;
+}
+.dchaprim {
+  background-color: hotpink;
+  height: 50px;
+  border-bottom: white solid 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  .dchados {
+    background-color: peru;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  .squares {
+    margin-bottom: 10px;
+  }
+  .squar {
+    height: 75px;
+    border-right: white solid 10px;
+    border-bottom: white solid 10px;
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .dchados {
+    background-color: peru;
+    height: 150px;
+    margin-bottom: 10px;
+    border-right: white solid 10px;
+  }
+  .squar {
+    height: 75px;
+    border-right: white solid 10px;
+    border-bottom: white solid 10px;
+    background-color: blue;
+  }
+}

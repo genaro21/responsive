@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .header {
+    height: 40px;
+    background-color: orange;
+    margin-bottom: 20px;
+  }
+  .main {
+    margin-bottom: 20px;
+    height: 350px;
+  }
+  .primera {
+    background-color: red;
+    border-bottom: white solid 10px;
+  }
+  .segunda {
+    background-color: turquoise;
+    border-bottom: white solid 10px;
+  }
+  .tercera {
+    background-color: red;
+  }
+  .footer1 {
+    height: 50px;
+    background-color: yellow;
+    border-bottom: white solid 10px;
+  }
+  .footer2 {
+    height: 40px;
+    background-color: yellow;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .header {
+    height: 40px;
+    background-color: rgb(47, 241, 255);
+    margin-bottom: 10px;
+  }
+  .main {
+    background-color: red;
+    margin-bottom: 10px;
+  }
+  .primera {
+    height: 250px;
+    border-right: white solid 20px;
+  }
+
+  .tercera {
+    height: 150px;
+    background-color: greenyellow;
+    border-top: white solid 10px;
+  }
+  .footer {
+    background-color: yellow;
+  }
+  .footer1 {
+    border-bottom: white solid 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 40px;
+    background-color: greenyellow;
+    margin-bottom: 10px;
+  }
+
+  .main {
+    background-color: red;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .primera {
+    border-right: white solid 0px;
+  }
+  .segunda {
+    border-left: white solid 10px;
+    border-right: white solid 10px;
+  }
+
+  .tercera {
+    background-color: red;
+    border-top: 0px;
+  }
+  .footer {
+    background-color: yellow;
+    height: 40px;
+  }
+  .footer1 {
+    border-right: white solid 10px;
+  }
+  .footer2 {
+    border-left: white solid 10px;
+  }
+}
